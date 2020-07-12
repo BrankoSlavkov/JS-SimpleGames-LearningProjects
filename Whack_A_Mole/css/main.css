@@ -1,0 +1,23 @@
+.square {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+}
+
+.mole {
+    /* mole.jpg -> must access from main.css path */
+    background-image: url('../img/mole.jpg');
+    background-size: cover;
+    cursor: pointer;
+}
