@@ -1,0 +1,40 @@
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 300px;
+    /* cursor: pointer; */
+}
+
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+
+.shooter {
+    background-image: url("../img/shooter.png");
+    background-size: cover;
+}
+
+.invader {
+    background: green;
+    border-radius: 10px;
+}
+
+div.laser {
+    background: black;
+    margin-left: 10px;
+    height: 10px;
+    width: 3px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 0px 10px 5px red;
+}
+
+.boom {
+    /* add shadows around div */
+    background: yellow;
+
+}
